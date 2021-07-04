@@ -20,6 +20,12 @@ header{
   border-top-right-radius: 15px;
 }
 .row{background-color: rgba(255, 255, 255, 0.801);border-radius: 15px;}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .Enlaces{
   display: flex;
   justify-content: center;
@@ -38,6 +44,9 @@ a:hover{
 .btn:hover{
   color: var(--main-color);
   background-color: white;
+}
+.input-field{
+  width: 20rem !important;
 }
 .input-field:hover, .input-field:focus{
   border-bottom-color: var(--main-color) !important;
