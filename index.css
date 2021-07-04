@@ -8,6 +8,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 h1,h2{
   font-size: 2.5rem;
@@ -31,6 +32,7 @@ form{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 125px;
 }
 a{
   color: var(--main-color);
@@ -58,6 +60,6 @@ a:hover{
 footer{
   color: var(--main-color);
   font-weight: 700;
-  position: fixed;
-  bottom: 0 !important;
+  position: absolute;
+  bottom: 0;
 }
