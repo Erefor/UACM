@@ -55,3 +55,9 @@ a:hover{
 ::placeholder{
   color: var(--main-color);
 }
+footer{
+  color: var(--main-color);
+  font-weight: 700;
+  position: fixed;
+  bottom: 0 !important;
+}
