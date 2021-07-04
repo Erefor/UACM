@@ -39,6 +39,10 @@ a:hover{
   color: var(--main-color);
   background-color: white;
 }
-input{
-  padding: 0 25px;
+.input-field:hover, .input-field:focus{
+  border-bottom-color: var(--main-color) !important;
+  box-shadow: var(--main-color);
+}
+::placeholder{
+  color: var(--main-color);
 }
