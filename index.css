@@ -19,12 +19,18 @@ header{
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-.row{background-color: white;border-radius: 15px;}
+.row{background-color: rgba(255, 255, 255, 0.801);border-radius: 15px;}
 .Enlaces{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+a{
+  color: var(--main-color);
+}
+a:hover{
+  color: black;
 }
 .btn{
   background-color: var(--main-color);
@@ -32,4 +38,7 @@ header{
 .btn:hover{
   color: var(--main-color);
   background-color: white;
+}
+input{
+  padding: 0 25px;
 }
